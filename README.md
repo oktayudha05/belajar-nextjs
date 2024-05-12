@@ -2,10 +2,16 @@ Project untuk belajar [Next.js](https://nextjs.org/) dengan [`create-next-app`](
 
 ## Cara jalanin
 
-Pertama, jalanin development server:
+Pertama, jalanin development server: disini saya pake pnpm buat package managernya
 
 ```bash
-# pastikan udh install pnpm sbg package manager
+# clne dlu reponya 
+git clone https://github.com/oktayudha05/belajar-nextjs
+# masuk direktori file
+cd belajar-next.js
+# install module module nya
+pnpm install
+# jalanin codenya
 pnpm run dev
 ```
 
