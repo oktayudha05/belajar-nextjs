@@ -36,7 +36,7 @@ export default function RegisterPage() {
                 <form action="#" className="mt-8 grid grid-cols-6 gap-6">
                 <div className="col-span-6 sm:col-span-3">
                     <label
-                    htmlFor="FirstName"
+                    htmlFor="FullName"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                     >
                     Full Name
@@ -46,14 +46,14 @@ export default function RegisterPage() {
                     type="text"
                     id="FullName"
                     name="full_name"
-                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow shadow-slate-800"
                     placeholder="Full Name"
                     />
                 </div>
 
                 <div className="col-span-6 sm:col-span-3">
                     <label
-                    htmlFor="LastName"
+                    htmlFor="Username"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                     >
                     Username
@@ -64,12 +64,14 @@ export default function RegisterPage() {
                     id="Username"
                     name="Username"
                     placeholder="Username"
-                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow shadow-slate-800"
                     />
                 </div>
 
                 <div className="col-span-6">
-                    <label htmlFor="Email" className="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                    <label 
+                    htmlFor="Email" 
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-200">
                     Email
                     </label>
 
@@ -78,7 +80,7 @@ export default function RegisterPage() {
                     id="Email"
                     name="email"
                     placeholder="Email @untidar.ac.id"
-                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow shadow-slate-800"
                     />
                 </div>
 
@@ -95,7 +97,7 @@ export default function RegisterPage() {
                     id="Password"
                     name="password"
                     placeholder="Password"
-                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow shadow-slate-800"
                     />
                 </div>
 
@@ -112,7 +114,7 @@ export default function RegisterPage() {
                     id="PasswordConfirmation"
                     name="password_confirmation"
                     placeholder="Password Confirmation"
-                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-gray-200 p-4 pe-12 text-sm shadow shadow-slate-800"
                     />
                 </div>
 
