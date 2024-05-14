@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 export default function SignInPage() {
     return (
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl min-h-screen px-4 py-16 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-lg">
                 <h1 className="text-center text-2xl font-bold text-indigo-600 sm:text-3xl">Get started today</h1>
 
@@ -18,7 +20,7 @@ export default function SignInPage() {
                     <div className="relative">
                     <input
                         type="email"
-                        className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-slate-50 p-4 pe-12 text-sm shadow shadow-slate-800"
                         placeholder="@untidar.ac.id"
                     />
 
@@ -47,7 +49,7 @@ export default function SignInPage() {
                     <div className="relative">
                     <input
                         type="password"
-                        className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        className="w-full rounded-lg opacity-75 border-slate-700 bg-slate-800 text-slate-50  p-4 pe-12 text-sm shadow shadow-slate-800"
                         placeholder="Enter password"
                     />
 
@@ -78,14 +80,14 @@ export default function SignInPage() {
 
                 <button
                     type="submit"
-                    className="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
+                    className="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white shadow"
                 >
                     Sign in
                 </button>
 
-                <p className="text-center text-sm text-gray-500">
-                    No account?
-                    <a className="underline" href="#">Sign up</a>
+                <p className="text-center text-sm text-gray-400">
+                    Belum punya akun?
+                    <Link className="underline" href="/register"> Sign up</Link>
                 </p>
                 </form>
             </div>
