@@ -1,10 +1,13 @@
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
 
 export default function SignInPage() {
     return (
-        <div className="mx-auto max-w-screen-xl min-h-screen px-4 py-16 sm:px-6 lg:px-8">
+        <div className='min-h-screen'>
+            <Navbar />
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-lg">
-                <h1 className="text-center text-2xl font-bold text-indigo-600 sm:text-3xl">Get started today</h1>
+                <h1 className="text-center text-2xl font-bold text-indigo-400 sm:text-3xl">Get started today</h1>
 
                 <p className="mx-auto mt-4 max-w-md text-center text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sunt dolores deleniti
@@ -87,10 +90,11 @@ export default function SignInPage() {
 
                 <p className="text-center text-sm text-gray-400">
                     Belum punya akun?
-                    <Link className="underline" href="/register"> Sign up</Link>
+                    <Link className="underline" href="/register"> Buat Akun</Link>
                 </p>
                 </form>
             </div>
+        </div>
         </div>
     );
     }

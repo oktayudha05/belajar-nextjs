@@ -10,6 +10,7 @@ export default function ContentImage() {
               <Image
                 fill
                 priority
+                sizes="100vw"
                 alt=""
                 quality={90}
                 src="/tes.png"
@@ -18,7 +19,7 @@ export default function ContentImage() {
             </div>
 
             <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-4xl">Ini nanti judul</h2>
+              <h2 className="text-3xl font-bold sm:text-4xl">Eggonomic.io</h2>
 
               <p className="mt-4 text-gray-300">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
@@ -27,10 +28,10 @@ export default function ContentImage() {
               </p>
 
               <Link
-                href="#"
-                className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                href="#contentAction"
+                className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400"
               >
-                Get Started Today
+                Lihat lebih lanjut
               </Link>
             </div>
           </div>

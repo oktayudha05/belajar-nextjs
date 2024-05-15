@@ -1,10 +1,12 @@
 'use client'
 import Link from "next/link"
+import Navbar from "@/components/Navbar"
 
 export default function RegisterPage() {
     return (
         <section>
         <div className="lg:min-h-screen">
+            <Navbar />
             <main
             className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
             >
@@ -25,12 +27,11 @@ export default function RegisterPage() {
                 </a>
 
                 <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">
-                Welcome to Information and Technology 
+                Selamat Datang di Situs Eggonomic 
                 </h1>
 
                 <p className="mt-4 leading-relaxed text-gray-500 dark:text-gray-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-                quibusdam aperiam voluptatum.
+                Silahkan mengisi form berikut untuk membuat akun dan mulai menggunakan layanan kami.
                 </p>
 
                 <form action="#" className="mt-8 grid grid-cols-6 gap-6">
@@ -123,12 +124,11 @@ export default function RegisterPage() {
 
                 <div className="col-span-6">
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                    By creating an account, you agree to our
+                    Dengan membuat akun, Anda setuju dengan&nbsp; 
                     <a href="#" className="text-gray-700 underline dark:text-gray-200">
-                        terms and conditions
+                        ketentuan layanan&nbsp;
                     </a>
-                    and
-                    <a href="#" className="text-gray-700 underline dark:text-gray-200"> privacy policy </a>.
+                    kami.
                     </p>
                 </div>
 
@@ -136,12 +136,12 @@ export default function RegisterPage() {
                     <button
                     className="inline-block shrink-0 rounded-md bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500 dark:hover:bg-indigo-700 dark:hover:text-white"
                     >
-                    Create an account
+                    Buat akun
                     </button>
 
                     <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
-                    Already have an account?
-                    <Link href="/signin" className="text-gray-700 underline dark:text-gray-200"> Sign In</Link>.
+                    Sudah memiliki akun?&nbsp;
+                    <Link href="/signin" className="text-gray-700 underline dark:text-gray-200"> Masuk</Link>.
                     </p>
                 </div>
                 </form>
